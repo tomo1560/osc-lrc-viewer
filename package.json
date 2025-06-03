@@ -1,0 +1,31 @@
+{
+  "name": "osc-lrc-viewer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start-server": "npx tsx server.ts"
+  },
+  "dependencies": {
+    "framer-motion": "^12.15.0",
+    "lrc-parser": "^1.0.1",
+    "lrclib-api": "^2.0.0",
+    "node-osc": "^9.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/lrc-parser": "^1.0.2",
+    "@types/node": "^20.11.30",
+    "@types/node-osc": "^9.1.0",
+    "@types/react-dom": "^19.1.5",
+    "@types/ws": "^8.5.8",
+    "@vitejs/plugin-react": "^4.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}
